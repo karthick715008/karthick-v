@@ -55,7 +55,7 @@
                endButton.disabled=false
            }
            person_id = e.target.id
-           button[person_id-1],disabled=true
+           button[person_id-1].disabled=true
            dice_options = [1,2,3,4,5,6]
            random=parseInt(Math.random()*dice_options.length)
            dice_results=dice_options[random]
